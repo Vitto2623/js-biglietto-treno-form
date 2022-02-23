@@ -1,4 +1,3 @@
-
 // Aggiungo una funzionalità al bottone
 const bottoneGenera = document.getElementById('genera');
 bottoneGenera.addEventListener('click', function(){
@@ -23,4 +22,7 @@ bottoneGenera.addEventListener('click', function(){
     document.getElementById('add-name').innerHTML = document.getElementById('name').value;
 }
 );
-
+// Bottone che annulla i dati inseriti
+function formReset(){
+	document.getElementById("frm1").reset();
+}
