@@ -21,19 +21,17 @@
         </div>
         <!--Contenuto-->
         <section id="contenitore-prezzo" class="container bg-white rounded text-center p-3 shadow">
-            <!--FORM-->
-            <form id="frm1">
                 <div class="row justify-content-center mb-5">
                     <div class="col-4" style="width: 300px;">
-                        <p>Nome Cognome</p>
+                        <p class="fw-bold text-danger mb-1">Nome Cognome</p>
                         <input class="rounded-3 border-danger text-center" type="text" id="name">
                     </div>
                     <div class="col-4" style="width: 300px;">
-                        <p>km da percorrere</p>
+                        <p class="fw-bold text-danger mb-1">km da percorrere</p>
                         <input class="rounded-3 border-danger text-center" type="text" id="km-lenght">
                     </div>
                     <div class="col-4" style="width: 300px;">
-                        <p>Fascia d'età</p>
+                        <p class="fw-bold text-danger mb-1">Fascia d'età</p>
                         <select name="fascia-età" id="età-utente" class="rounded-3 border-danger text-center" style="height: 30px; border: 2px solid">
                             <option value="Minorenne">Minorenne</option>
                             <option value="Maggiorenne">Maggiorenne</option>
@@ -43,14 +41,12 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-6" style="width: 100px;">
-                        <button class="rounded-2 fw-bold fs-5" style="background-color: #cccccc; color: #b91450; border: 1px solid black;" id="genera">Genera</button>
+                        <button class="rounded-2 fw-bold fs-5" id="genera">Genera</button>
                     </div>
                     <div class="col-6" style="width: 100px;">
-                        <button class="rounded-2 fw-bold fs-5" style="background-color: #cccccc; color: #b91450; border: 1px solid black;" onclick="formReset()">Annulla</button>
+                        <button class="rounded-2 fw-bold fs-5" id="reset">Annulla</button>
                     </div>
                 </div>
-            </form>
-            <!--/FORM-->
         </section>
         <!--Biglietto-->
         <div class="container-fluid text-center text-white">
